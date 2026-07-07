@@ -1,10 +1,6 @@
-tensorflow>=2.10.0
-opencv-python>=4.7.0
-numpy>=1.23.0
-mediapipe>=0.10.0
-pygame>=2.1.0
-
-# ── Web deployment (Streamlit) ──
-# The app opens the webcam directly with OpenCV (see app.py) and drives the
-# UI with st.fragment, so no WebRTC/browser-camera stack is needed anymore.
-streamlit>=1.33.0
+streamlit==1.45.1
+tensorflow==2.19.1
+mediapipe==0.10.21
+opencv-python-headless==4.11.0.86
+numpy==1.26.4
+pygame==2.6.1
